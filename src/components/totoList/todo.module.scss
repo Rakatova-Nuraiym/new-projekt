@@ -1,0 +1,41 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  .card {
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+    margin-top: 30px;
+    gap: 20px;
+    img {
+      width: 300px;
+      border-radius: 20px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+      .delete {
+        width: 120px;
+        border: none;
+        height: 40px;
+        background-color: red;
+        border-radius: 20px;
+      }
+
+      .edit {
+        width: 120px;
+        background-color: green;
+         border-radius: 20px;
+        border: none;
+        height: 40px;
+      }
+    }
+  }
+}
